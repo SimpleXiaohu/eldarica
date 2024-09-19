@@ -192,7 +192,7 @@ lazy val root = (project in file(".")).
 //    libraryDependencies += "io.github.uuverifiers" %% "princess" % "2024-03-22"
 //
     resolvers += "uuverifiers" at "https://eldarica.org/maven/",
-    libraryDependencies += "uuverifiers" %% "princess" % "nightly-SNAPSHOT"
-
+    libraryDependencies += "uuverifiers" %% "princess" % "nightly-SNAPSHOT",
+    libraryDependencies += "uuverifiers" %% "ostrich" % "nightly-SNAPSHOT"
 )
 //
